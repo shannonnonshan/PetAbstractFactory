@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory
+namespace AbstractFactory.Animal
 {
-    public interface IAnimal
+    public interface ICarnivore
     {
         string GetName();
         string GetImage();

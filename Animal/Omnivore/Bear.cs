@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory
+namespace AbstractFactory.Animal.Omnivore
 {
-    public class Squirrel : IAnimal
+    public class Bear : IOmnivore
     {
-        public string GetName() => "Squirrel";
+        public string GetName() => "Bear";
         public string GetImage() => "";
     }
 }

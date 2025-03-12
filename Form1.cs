@@ -6,5 +6,14 @@ namespace AbstractFactory
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+        public void ShowOutput(string text)
+        {
+            txtOutput.AppendText(text + Environment.NewLine);  
+        }
     }
 }

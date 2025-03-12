@@ -1,7 +1,8 @@
 ﻿using System;
-namespace AbstractFactory
+namespace AbstractFactory.Animal.Carnivore
 {
-    public class Dog : IAnimal
+    public class Dog : ICarnivore
+
     {
         public string GetName() => "Dog";
         public string GetImage() => "";
