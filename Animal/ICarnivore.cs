@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.Animal
 {
-    public interface ICarnivore
+    public interface ICarnivore 
     {
         string GetName();
-        string GetImage();
+        Image GetImage();
     }
 }

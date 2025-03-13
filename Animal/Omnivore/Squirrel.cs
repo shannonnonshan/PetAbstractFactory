@@ -9,6 +9,6 @@ namespace AbstractFactory.Animal.Omnivore
     public class Squirrel : IOmnivore
     {
         public string GetName() => "Squirrel";
-        public string GetImage() => "";
+        public Image GetImage() => Image.FromFile("./images/squirrel.png");
     }
 }

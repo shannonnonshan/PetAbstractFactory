@@ -9,6 +9,6 @@ namespace AbstractFactory.Animal.Herbivore
     public class Camel : IHerbivore
     {
         public string GetName() => "Camel";
-        public string GetImage() => "";
+        public Image GetImage() => Image.FromFile("./images/camel.png");
     }
 }

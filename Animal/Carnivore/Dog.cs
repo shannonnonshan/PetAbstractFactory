@@ -5,7 +5,7 @@ namespace AbstractFactory.Animal.Carnivore
 
     {
         public string GetName() => "Dog";
-        public string GetImage() => "";
+        public Image GetImage() => Image.FromFile("./images/dog.png");
     }
 }
 

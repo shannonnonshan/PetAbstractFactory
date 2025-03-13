@@ -9,6 +9,6 @@ namespace AbstractFactory.Animal.Carnivore
     public class Fox : ICarnivore
     {
         public string GetName() => "Fox";
-        public string GetImage() => "";
+        public Image GetImage() => Image.FromFile("./images/fox.png");
     }
 }

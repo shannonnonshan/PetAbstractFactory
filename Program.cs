@@ -25,19 +25,22 @@ namespace AbstractFactory
             //Console.WriteLine($"Small Wild Animal: {omnivoreFactory.CreateSmallWildAnimal().GetImage()} {omnivoreFactory.CreateSmallWildAnimal().GetName()}");
             //Console.WriteLine($"Desert Animal: {omnivoreFactory.CreateDesertAnimal().GetImage()} {omnivoreFactory.CreateDesertAnimal().GetName()}");
 
-            Form1 form = new Form1(); // Tạo Form1
-            IAnimalFactory factory = new DessertAnimalFactory();
-            ICarnivore carnivore = factory.CreateCarnivore();
-            IHerbivore herbivore = factory.CreateHerbivore();
-            IOmnivore omnivore = factory.CreateIOmnivore();
+            //Form1 form = new Form1(); // Tạo Form1
+            //IAnimalFactory factory = new DesertAnimalFactory();
+            //ICarnivore carnivore = factory.CreateCarnivore();
+            //IHerbivore herbivore = factory.CreateHerbivore();
+            //IOmnivore omnivore = factory.CreateIOmnivore();
 
-            // Hiển thị kết quả trên Form1
-            form.ShowOutput("Dessert Animal Information");
-            form.ShowOutput("Carnivore: " + carnivore.GetName());
-            form.ShowOutput("Herbivore: " + herbivore.GetName());
-            form.ShowOutput("Omnivore: " + omnivore.GetName());
+            //// Hiển thị kết quả trên Form1
+            //form.ShowOutput("Dessert Animal Information");
+            //form.ShowOutput("Carnivore: " + carnivore.GetName());
+            //form.ShowOutput("Herbivore: " + herbivore.GetName());
+            //form.ShowOutput("Omnivore: " + omnivore.GetName());
 
-            Application.Run(form); 
+            //Application.Run(form); 
+
+            MainPage mainPage = new MainPage();
+            Application.Run(mainPage);
 
         }
     }

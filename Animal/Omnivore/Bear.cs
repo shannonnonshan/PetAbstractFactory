@@ -9,6 +9,6 @@ namespace AbstractFactory.Animal.Omnivore
     public class Bear : IOmnivore
     {
         public string GetName() => "Bear";
-        public string GetImage() => "";
+        public Image GetImage() => Image.FromFile("./images/bear.png");
     }
 }

@@ -9,7 +9,7 @@ namespace AbstractFactory.Animal
     public interface IHerbivore
     {
         string GetName();
-        string GetImage();
+        Image GetImage();
     }
 }
 

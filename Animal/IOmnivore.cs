@@ -9,6 +9,6 @@ namespace AbstractFactory.Animal
     public interface IOmnivore
     {
         string GetName();
-        string GetImage();
+        Image GetImage();
     }
 }
